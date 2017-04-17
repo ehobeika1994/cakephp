@@ -1,0 +1,265 @@
+2017-03-14 03:35:30 Error: Fatal Error (64): Cannot redeclare class AppModel in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/Model/Post.php, line 13]
+2017-03-14 03:35:30 Error: [FatalErrorException] Cannot redeclare class AppModel
+Request URL: /projects/cake/cakephp/posts
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/X...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/X...', 13, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/X...', 13, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-14 03:35:33 Error: Fatal Error (64): Cannot redeclare class AppModel in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/Model/Post.php, line 13]
+2017-03-14 03:35:33 Error: [FatalErrorException] Cannot redeclare class AppModel
+Request URL: /projects/cake/cakephp/posts/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/X...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/X...', 13, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/X...', 13, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-14 03:35:35 Error: Fatal Error (64): Cannot redeclare class AppModel in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/Model/Post.php, line 13]
+2017-03-14 03:35:35 Error: [FatalErrorException] Cannot redeclare class AppModel
+Request URL: /projects/cake/cakephp/posts/index
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/X...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/X...', 13, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/X...', 13, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-14 03:35:36 Error: Fatal Error (64): Cannot redeclare class AppModel in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/Model/Post.php, line 13]
+2017-03-14 03:35:36 Error: [FatalErrorException] Cannot redeclare class AppModel
+Request URL: /projects/cake/cakephp/posts/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/X...', 13)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/X...', 13, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/Applications/X...', 13, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-14 03:36:12 Error: [MissingActionException] Action PostsController::view() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'view',
+)
+Request URL: /projects/cake/cakephp/posts/view/18
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-14 03:38:35 Error: [MissingActionException] Action PostsController::9() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => '9',
+)
+Request URL: /projects/cake/cakephp/posts/9
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-14 03:39:05 Error: [MissingActionException] Action PostsController::9() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => '9',
+)
+Request URL: /projects/cake/cakephp/posts/9
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-14 03:39:13 Error: [MissingActionException] Action PostsController::9() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => '9',
+)
+Request URL: /projects/cake/cakephp/posts/9
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-14 04:01:12 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`laravel-blog`.`post_tag`, CONSTRAINT `post_tag_post_id_foreign` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`))
+Request URL: /projects/cake/cakephp/posts/delete/9
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('DELETE `Post` F...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/Database/Mysql.php(449): DboSource->execute('DELETE `Post` F...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Model.php(2721): Mysql->delete(Object(Post), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/Controller/PostsController.php(79): Model->delete('9')
+#5 [internal function]: PostsController->delete('9')
+#6 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-03-14 04:01:42 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`laravel-blog`.`post_tag`, CONSTRAINT `post_tag_post_id_foreign` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`))
+Request URL: /projects/cake/cakephp/posts/delete/10
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('DELETE `Post` F...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/Database/Mysql.php(449): DboSource->execute('DELETE `Post` F...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Model.php(2721): Mysql->delete(Object(Post), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/Controller/PostsController.php(79): Model->delete('10')
+#5 [internal function]: PostsController->delete('10')
+#6 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-03-14 04:23:52 Error: [MissingControllerException] Controller class <scriptSrc=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<scriptSrc=Controller',
+  'plugin' => NULL,
+)
+Request URL: /projects/cake/cakephp/%3Cscript%20src=
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-14 04:24:08 Error: Fatal Error (4): syntax error, unexpected '</script>' in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/View/Layouts/default.ctp, line 36]
+2017-03-14 04:24:08 Error: [FatalErrorException] syntax error, unexpected '</script>'
+Request URL: /projects/cake/cakephp/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 36, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 36, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-14 04:24:29 Error: Fatal Error (4): syntax error, unexpected '</script>' in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/View/Layouts/default.ctp, line 36]
+2017-03-14 04:24:29 Error: [FatalErrorException] syntax error, unexpected '</script>'
+Request URL: /projects/cake/cakephp/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 36, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 36, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-14 04:24:40 Error: Fatal Error (4): syntax error, unexpected '</script>' in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/View/Layouts/default.ctp, line 36]
+2017-03-14 04:24:40 Error: [FatalErrorException] syntax error, unexpected '</script>'
+Request URL: /projects/cake/cakephp/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 36, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 36, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-14 04:24:41 Error: Fatal Error (4): syntax error, unexpected '</script>' in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/View/Layouts/default.ctp, line 36]
+2017-03-14 04:24:41 Error: [FatalErrorException] syntax error, unexpected '</script>'
+Request URL: /projects/cake/cakephp/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 36, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 36, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-14 04:24:42 Error: Fatal Error (4): syntax error, unexpected '</script>' in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/View/Layouts/default.ctp, line 36]
+2017-03-14 04:24:42 Error: [FatalErrorException] syntax error, unexpected '</script>'
+Request URL: /projects/cake/cakephp/
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 36, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 36, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-14 04:24:49 Error: [MissingControllerException] Controller class <scriptSrc=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<scriptSrc=Controller',
+  'plugin' => NULL,
+)
+Request URL: /projects/cake/cakephp/%3Cscript%20src=
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-14 04:24:58 Error: [MissingControllerException] Controller class <scriptSrc=Controller could not be found.
+Exception Attributes: array (
+  'class' => '<scriptSrc=Controller',
+  'plugin' => NULL,
+)
+Request URL: /projects/cake/cakephp/%3Cscript%20src=
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-14 04:26:37 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/cake/cakephp/js/tinymce.init%28%7B%20selector%3A%22textarea%22%20%7D%29%3B.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-14 04:26:39 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /projects/cake/cakephp/js/tinymce.init%28%7B%20selector%3A%22textarea%22%20%7D%29%3B.js
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-14 04:29:45 Error: Fatal Error (4): syntax error, unexpected 'textarea' (T_STRING) in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/View/Posts/add.ctp, line 3]
+2017-03-14 04:29:45 Error: [FatalErrorException] syntax error, unexpected 'textarea' (T_STRING)
+Request URL: /projects/cake/cakephp/posts/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-14 04:29:55 Error: Fatal Error (4): syntax error, unexpected 'textarea' (T_STRING) in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/View/Posts/add.ctp, line 3]
+2017-03-14 04:29:55 Error: [FatalErrorException] syntax error, unexpected 'textarea' (T_STRING)
+Request URL: /projects/cake/cakephp/posts/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-14 04:29:56 Error: Fatal Error (4): syntax error, unexpected 'textarea' (T_STRING) in [/Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/View/Posts/add.ctp, line 3]
+2017-03-14 04:29:56 Error: [FatalErrorException] syntax error, unexpected 'textarea' (T_STRING)
+Request URL: /projects/cake/cakephp/posts/add
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/X...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/X...', 3, Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-19 23:22:31 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`laravel-blog`.`post_tag`, CONSTRAINT `post_tag_post_id_foreign` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`))
+Request URL: /projects/cake/cakephp/posts/delete/24
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('DELETE `Post` F...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/Database/Mysql.php(449): DboSource->execute('DELETE `Post` F...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Model.php(2721): Mysql->delete(Object(Post), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/Controller/PostsController.php(79): Model->delete('24')
+#5 [internal function]: PostsController->delete('24')
+#6 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2017-03-19 23:22:58 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`laravel-blog`.`post_tag`, CONSTRAINT `post_tag_post_id_foreign` FOREIGN KEY (`post_id`) REFERENCES `posts` (`id`))
+Request URL: /projects/cake/cakephp/posts/delete/17
+Stack Trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('DELETE `Post` F...', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Datasource/Database/Mysql.php(449): DboSource->execute('DELETE `Post` F...')
+#3 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Model/Model.php(2721): Mysql->delete(Object(Post), Array)
+#4 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/Controller/PostsController.php(79): Model->delete('17')
+#5 [internal function]: PostsController->delete('17')
+#6 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#9 /Applications/XAMPP/xamppfiles/htdocs/projects/cake/cakephp/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
